@@ -1,0 +1,969 @@
+[
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "authDTO",
+        "Type": "SistemaVenta.DTO.AuthDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.BodegaController",
+    "Method": "Editar",
+    "RelativePath": "api/Bodega/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SistemaVenta.DTO.BodegaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.BodegaController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Bodega/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.BodegaController",
+    "Method": "FiltroBusquedad",
+    "RelativePath": "api/Bodega/FiltosBusquedad",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "buscarPor",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "nombreBodega",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fechaInicio",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fechaFin",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.BodegaController",
+    "Method": "Guardar",
+    "RelativePath": "api/Bodega/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SistemaVenta.DTO.BodegaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.BodegaController",
+    "Method": "Lista",
+    "RelativePath": "api/Bodega/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.CategoriaController",
+    "Method": "Lista",
+    "RelativePath": "api/Categoria/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.ComisionSRIController",
+    "Method": "Editar",
+    "RelativePath": "api/ComisionSRI/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SistemaVenta.DTO.ComisionSRIDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.ComisionSRIController",
+    "Method": "Eliminar",
+    "RelativePath": "api/ComisionSRI/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.ComisionSRIController",
+    "Method": "Guardar",
+    "RelativePath": "api/ComisionSRI/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SistemaVenta.DTO.ComisionSRIDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.ComisionSRIController",
+    "Method": "Lista",
+    "RelativePath": "api/ComisionSRI/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.DashBoardController",
+    "Method": "Resumen",
+    "RelativePath": "api/DashBoard/Resumen",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.InventarioController",
+    "Method": "Editar",
+    "RelativePath": "api/Inventario/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SistemaVenta.DTO.InventarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.InventarioController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Inventario/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.InventarioController",
+    "Method": "FiltroBusquedad",
+    "RelativePath": "api/Inventario/FiltosBusquedad",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "buscarPor",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "nombreBodega",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fechaInicio",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fechaFin",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.InventarioController",
+    "Method": "Guardar",
+    "RelativePath": "api/Inventario/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SistemaVenta.DTO.InventarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.InventarioController",
+    "Method": "Lista",
+    "RelativePath": "api/Inventario/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.Materia_PrimaController",
+    "Method": "Editar",
+    "RelativePath": "api/Materia_Prima/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SistemaVenta.DTO.MateriaPrimaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.Materia_PrimaController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Materia_Prima/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.Materia_PrimaController",
+    "Method": "Guardar",
+    "RelativePath": "api/Materia_Prima/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SistemaVenta.DTO.MateriaPrimaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.Materia_PrimaController",
+    "Method": "Lista",
+    "RelativePath": "api/Materia_Prima/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.MenuController",
+    "Method": "Lista",
+    "RelativePath": "api/Menu/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.OrdenProduccionController",
+    "Method": "Editar",
+    "RelativePath": "api/OrdenProduccion/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SistemaVenta.DTO.OrdenProduccionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.OrdenProduccionController",
+    "Method": "Eliminar",
+    "RelativePath": "api/OrdenProduccion/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.OrdenProduccionController",
+    "Method": "Guardar",
+    "RelativePath": "api/OrdenProduccion/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SistemaVenta.DTO.OrdenProduccionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.OrdenProduccionController",
+    "Method": "Lista",
+    "RelativePath": "api/OrdenProduccion/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.OrdenProduccionController",
+    "Method": "ObtenerPorIdProduccion",
+    "RelativePath": "api/OrdenProduccion/ObtenerIDOrdenProduccion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.ProductoController",
+    "Method": "Editar",
+    "RelativePath": "api/Producto/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SistemaVenta.DTO.ProductoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.ProductoController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Producto/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.ProductoController",
+    "Method": "Guardar",
+    "RelativePath": "api/Producto/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SistemaVenta.DTO.ProductoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.ProductoController",
+    "Method": "Lista",
+    "RelativePath": "api/Producto/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.RolController",
+    "Method": "Lista",
+    "RelativePath": "api/Rol/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.RolController",
+    "Method": "ObtenerRolNombre",
+    "RelativePath": "api/Rol/ObtenerRolNombre/{idRol}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idRol",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.TallerController",
+    "Method": "Editar",
+    "RelativePath": "api/Taller/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SistemaVenta.DTO.TallerDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.TallerController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Taller/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.TallerController",
+    "Method": "Guardar",
+    "RelativePath": "api/Taller/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SistemaVenta.DTO.TallerDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.TallerController",
+    "Method": "Lista",
+    "RelativePath": "api/Taller/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.TipoMuebleController",
+    "Method": "Editar",
+    "RelativePath": "api/TipoMueble/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SistemaVenta.DTO.Tipo_MuebleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.TipoMuebleController",
+    "Method": "Eliminar",
+    "RelativePath": "api/TipoMueble/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.TipoMuebleController",
+    "Method": "Guardar",
+    "RelativePath": "api/TipoMueble/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SistemaVenta.DTO.Tipo_MuebleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.TipoMuebleController",
+    "Method": "Lista",
+    "RelativePath": "api/TipoMueble/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.TrazabilidadController",
+    "Method": "Editar",
+    "RelativePath": "api/Trazabilidad/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SistemaVenta.DTO.TrazabilidadDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.TrazabilidadController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Trazabilidad/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.TrazabilidadController",
+    "Method": "Guardar",
+    "RelativePath": "api/Trazabilidad/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SistemaVenta.DTO.TrazabilidadDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.TrazabilidadController",
+    "Method": "Lista",
+    "RelativePath": "api/Trazabilidad/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.UsuarioController",
+    "Method": "ActivarUsuario",
+    "RelativePath": "api/Usuario/ActivarUsuario/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.UsuarioController",
+    "Method": "Editar",
+    "RelativePath": "api/Usuario/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SistemaVenta.DTO.UsuarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.UsuarioController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Usuario/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.UsuarioController",
+    "Method": "EliminadoLogico",
+    "RelativePath": "api/Usuario/EliminarLogico/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.UsuarioController",
+    "Method": "Guardar",
+    "RelativePath": "api/Usuario/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SistemaVenta.DTO.UsuarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.UsuarioController",
+    "Method": "InciarSesion",
+    "RelativePath": "api/Usuario/IniciarSesion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SistemaVenta.DTO.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.UsuarioController",
+    "Method": "Lista",
+    "RelativePath": "api/Usuario/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.UsuarioController",
+    "Method": "ListaNoActivos",
+    "RelativePath": "api/Usuario/ListaNoActivos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.UsuarioController",
+    "Method": "ObtenerFotoPorCorreo",
+    "RelativePath": "api/Usuario/ObtenerFotoPorCorreo/{correo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "correo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.VentaController",
+    "Method": "Historial",
+    "RelativePath": "api/Venta/Historial",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "buscarPro",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "numeroVenta",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FechaInicio",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FechaFin",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.VentaController",
+    "Method": "Registrar",
+    "RelativePath": "api/Venta/Registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SistemaVenta.DTO.VentaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.VentaController",
+    "Method": "Reporte",
+    "RelativePath": "api/Venta/Reporte",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FechaInicio",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FechaFin",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.WipController",
+    "Method": "AsignarOperadorOWip",
+    "RelativePath": "api/Wip/AsignarOperador",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SistemaVenta.DTO.WipDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.WipController",
+    "Method": "Editar",
+    "RelativePath": "api/Wip/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SistemaVenta.DTO.WipDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.WipController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Wip/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.WipController",
+    "Method": "Filtros",
+    "RelativePath": "api/Wip/Filtros",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "buscarPor",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fechaInicio",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fechaFin",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVenta.API.Controllers.WipController",
+    "Method": "Lista",
+    "RelativePath": "api/Wip/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
